@@ -31,7 +31,6 @@
 
 .navbar {
     align-items: center;
-    background: #fff;
     display: flex;
     flex-direction: row;
     font-family: sans-serif;
@@ -116,7 +115,7 @@
 
 @media screen and (max-width: 768px) {
     .nav-menu {
-        background: #fff;
+        background: rgb(0, 0, 0);
         flex-direction: column;
         justify-content: center;
         opacity: 0;
@@ -127,6 +126,7 @@
         left: 0;
         transform: translatey(-100%);
         text-align: center;
+        color: white;
     }
 
     .menu-active .nav-menu {
