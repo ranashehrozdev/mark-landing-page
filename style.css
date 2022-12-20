@@ -126,11 +126,11 @@
         left: 0;
         transform: translatey(-100%);
         text-align: center;
-        
+
     }
 
     .sub-nav__link,
-    .nav__link{
+    .nav__link {
         color: white !important;
     }
 
@@ -367,18 +367,18 @@
     padding-bottom: 80px;
 }
 
-.bt{
+.bt {
     margin-bottom: 80px;
 }
 
 .about h2 {
     font-size: 19px;
     color: #5b6eff;
-    text-transform: uppercasefrff;
+    text-transform: uppercase;
     padding-bottom: 70px;
 }
 
-.section4data{
+.section4data {
     display: flex;
     justify-content: space-between;
 }
@@ -393,53 +393,100 @@
     padding-bottom: 40px;
 }
 
-.about a{
+.about a {
     position: relative;
-z-index: 2;
-display: block;
-overflow: hidden;
-padding: 1.5em 3em;
--webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-border: 1px solid #000;
-border-radius: 100px;
-background-color: transparent;
-box-shadow: none;
-color: #000;
-font-weight: 600;
-text-align: center;
-text-decoration: none;
-text-transform: uppercase;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    padding: 1.5em 3em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background-color: transparent;
+    box-shadow: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.subabout2{
-margin-bottom: 2rem;
+.subabout2 {
+    margin-bottom: 2rem;
 }
 
 
-.subabout2 h4{
+.subabout2 h4 {
     font-size: 23px;
     font-weight: 700;
     padding-bottom: 8px;
     text-transform: uppercase;
 }
 
-.subabout2 p{
+.subabout2 p {
     font-size: 23px;
     font-weight: 300;
 }
 
-.footerlink{
-font-weight: 600;
-text-align: center;
-text-transform: uppercase;
+.footerlink {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.footerlink a{
+.footerlink a {
     text-decoration: none;
     color: #000;
     font-weight: 300;
 }
 
+@media screen and (max-width: 768px) {
+    .buttons.herobutton {
+        display: inline-block;
+    }
+
+    .more {
+        margin-bottom: 1rem;
+    }
+
+    .herosection p {
+        font-size: 1.4em;
+    }
+
+    .section3imagewrapper {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .image-card {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .imgname {
+        font-size: 15px;
+    }
+
+    .section4data {
+        display: block;
+    }
+
+    .about h2 {
+        padding-bottom: 40px;
+      }
+
+      .aboutp{
+        padding-bottom: 30px;
+      }
+
+      .about a {
+        margin-bottom: 60px;
+      }
+
+      .footerlink a {
+        font-size: 12px;
+      }
+}
