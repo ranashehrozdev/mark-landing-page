@@ -6,6 +6,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: 2500px;
     margin: 0 auto;
@@ -316,12 +320,13 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 3.5rem;
+    text-align: center;
 }
 
 .zoom-effect-container {
     position: relative;
     overflow: hidden;
-    border-bottom: 4px solid transparent;
+    border-bottom: 2px solid transparent;
     padding-bottom: 10px;
 }
 
@@ -353,6 +358,7 @@
     font-size: 27px;
     color: #000;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .section3imagewrapper {
@@ -462,7 +468,7 @@
     }
 
     .image-card {
-        width: 250px;
+        width: 350px;
         margin: 0 auto;
     }
 
