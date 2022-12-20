@@ -126,7 +126,12 @@
         left: 0;
         transform: translatey(-100%);
         text-align: center;
-        color: white;
+        
+    }
+
+    .sub-nav__link,
+    .nav__link{
+        color: white !important;
     }
 
     .menu-active .nav-menu {
