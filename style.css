@@ -13,6 +13,9 @@ html {
 .container {
     max-width: 2500px;
     margin: 0 auto;
+}
+
+.padd{
     padding: 3vh 7vw;
 }
 
@@ -136,6 +139,7 @@ html {
     .sub-nav__link,
     .nav__link {
         color: white !important;
+        
     }
 
     .menu-active .nav-menu {
@@ -160,6 +164,7 @@ html {
     text-align: center;
     letter-spacing: 0.06px;
     white-space: nowrap;
+    transition: .3s ease-in-out;
 }
 
 .nav__link:not(:last-child) {
@@ -188,6 +193,7 @@ html {
 .sub-nav__link {
     color: white;
     padding: 10px 0px;
+    transition: .3s ease-in-out;
 }
 
 .sub-nav__link:hover {
@@ -235,11 +241,13 @@ html {
     padding: 20px 0px;
 }
 
-.herosection {
+
+
+.herosectionwrap {
     height: 80vh;
     display: flex;
     align-items: center;
-}
+  }
 
 .herosection p {
     font-size: 40px;
@@ -275,6 +283,7 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 1rem;
+    transition: .3s ease-in-out;
 }
 
 .about a:hover,
@@ -320,7 +329,6 @@ html {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 3.5rem;
-    text-align: center;
 }
 
 .zoom-effect-container {
@@ -328,6 +336,7 @@ html {
     overflow: hidden;
     border-bottom: 2px solid transparent;
     padding-bottom: 10px;
+    transition: .3s ease-in-out;
 }
 
 .image-card {
@@ -418,6 +427,7 @@ html {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    transition: .3s ease-in-out;
 }
 
 .subabout2 {
