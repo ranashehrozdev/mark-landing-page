@@ -9,7 +9,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Marc Friedman</title>
+    <title>UNI Nav</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <p class="logop">Marc Friedman</p>
+                    <a href="index.html" class="logop">Marc Friedman</a>
                 </div>
                 <div class="push-left">
                     <button id="menu-toggler" data-class="menu-active" class="hamburger">
@@ -26,8 +26,9 @@
                         <span class="hamburger-line hamburger-line-bottom"></span>
                     </button>
                     <ul id="primary-menu" class="menu nav-menu">
-                        <li class="menu-item dropdown"><a class="nav__link" href="#">Work <i
-                                    class="fa-solid fa-angle-down"></i></a>
+                        <li class="menu-item dropdown">
+                            <a class="nav__link" href="#">Work <i class="fa-solid fa-angle-down"></i>
+                            </a>
                             <ul class="sub-nav">
                                 <li><a class="sub-nav__link" href="#uninav">UNI NAV</a></li>
                                 <li><a class="sub-nav__link" href="#craig">CRAIGSLIST</a></li>
@@ -46,42 +47,64 @@
     </div>
 
 
-<div class="section4 padd">
-    <div class="container">
-        <div class="section4data">
-            <div class="about">
-                <h2>ABOUT</h2>
-                <p class="aboutp">I learned Photoshop when I was 10 so I could bring all my favorite superheroes together onto one desktop background.</p>
-                <a href="./Data/resume/Marc-Friedman-CV.docx">View Resume</a>
-            </div>
-            <div class="about about2">
-                <h2>What I've been up to</h2>
-                <div class="subabout2">
-                    <h4>fcb</h4>
-                    <p>‍‍Product Designer</p>
+    <!-- lazyload -->
+    <div class="imggload padd">
+        <div class="container">
+            <div class="abbout">
+                <div class="abbout__subsections">
+                    <div class="abbout__area">
+                       <img src="https://storage.googleapis.com/uxfolio/showcase//5c1a5aecfd569b00045d2149/ux-case-study-example-2-min_K8U.png" alt="" class="areaimgg">
+                    </div>
                 </div>
-                <div class="subabout2">
-                    <h4>fcb</h4>
-                    <p>‍‍Product Designer</p>
-                </div>
-                <div class="subabout2">
-                    <h4>fcb</h4>
-                    <p>‍‍Product Designer</p>
+                <div class="abbout__title">
+                    <h2>About Me</h2>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<footer class="padd">
-    <div class="container">
-        <div class="footerlink">
 
-            <a href="#">Hope you have a nice day :) -Marc Friedman</a>
+    <!-- end -->
+
+    <div class="section4 padd">
+        <div class="container">
+            <div class="section4data">
+                <div class="about">
+                    <h2>ABOUT</h2>
+                    <p class="aboutp">I learned Photoshop when I was 10 so I could bring all my favorite superheroes
+                        together onto one desktop background.</p>
+                    <a href="./Data/resume/Marc-Friedman-CV.docx">View Resume</a>
+                </div>
+                <div class="about about2">
+                    <h2>What I've been up to</h2>
+                    <div class="subabout2">
+                        <h4>fcb</h4>
+                        <p>‍‍Product Designer</p>
+                    </div>
+                    <div class="subabout2">
+                        <h4>fcb</h4>
+                        <p>‍‍Product Designer</p>
+                    </div>
+                    <div class="subabout2">
+                        <h4>fcb</h4>
+                        <p>‍‍Product Designer</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="script.js"></script>
+    <footer class="padd">
+        <div class="container">
+            <div class="footerlink">
+
+                <a href="#">Hope you have a nice day :) -Marc Friedman</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
